@@ -12,6 +12,6 @@ node(){
         sh "sh array"
     }
     stage('Notify'){
-        sh 'mail -s "The job is done" mebiru2051@gmail.com'
+        sh 'mail -s "The job" mebiru2051@gmail.com'
     }
 }
