@@ -6,7 +6,7 @@ node(){
         sh "sh loop.sh"
     }
     stage('Array'){
-        sh "sh ra.sh" 
+        sh "sh var.sh"
     }
     stage('Notify'){
         sh 'mail -s "The job is done" mebiru2051@gmail.com'
