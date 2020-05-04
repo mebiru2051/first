@@ -4,8 +4,6 @@ node(){
     }
     stage('Build'){
         sh "sh loop.sh"
-    }
-    stage('Array'){
         sh "sh var.sh"
     }
     stage('Notify'){
